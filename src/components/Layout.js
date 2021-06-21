@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
                 { children }
             </Box>
             <footer>
-                <Text textAlign="center" m="2rem auto">Copyright © 2021 Book Bazaar</Text>
+                <Text as="a" href="#" textAlign="center" m="2rem auto">Copyright © 2021 Book Bazaar</Text>
             </footer>
         </div>
     )

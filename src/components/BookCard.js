@@ -52,7 +52,7 @@ const BookCard = ({ book, cart, setCart }) => {
                 </ModalFooter>
                 </ModalContent>
             </Modal>
-            <Box maxW="xs" borderWidth="1px" borderRadius="lg" overflow="hidden" onClick={onOpen}>
+            <Box cursor="pointer" maxW="xs" borderWidth="1px" borderRadius="lg" overflow="hidden" onClick={onOpen}>
                 <Image fallbackSrc="https://via.placeholder.com/450" src={`http://covers.openlibrary.org/b/isbn/${book.ISBN}-L.jpg`}  alt={book.title} />
 
                 <Box p="6">

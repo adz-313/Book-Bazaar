@@ -16,12 +16,9 @@ module.exports = {
         collectionTypes: [`books`],
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/static/books/`,
-      },
-    },
   ],
+  siteMetadata: {
+    title: 'Book Bazaar',
+    description: 'Ecommerce site for books'
+  }
 }
